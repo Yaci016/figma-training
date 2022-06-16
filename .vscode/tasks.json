@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "build",
+      "path": "nestJs",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "npm: build - nestJs",
+      "detail": "nest build"
+    },
+    {
+      "type": "typescript",
+      "tsconfig": "plugin-figma/tsconfig.json",
+      "option": "watch",
+      "options": {
+        "shell": {
+          "executable": "powershell.exe"
+        }
+      },
+      "problemMatcher": ["$tsc-watch"],
+      "group": "build",
+      "label": "tsc: watch - plugin-figma/tsconfig.json"
+    }
+  ]
+}

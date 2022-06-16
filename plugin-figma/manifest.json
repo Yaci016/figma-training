@@ -1,0 +1,11 @@
+{
+  "name": "clappa",
+  "id": "1119372691063674235",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma",
+    "figjam"
+  ],
+  "ui": "ui.html"
+}
